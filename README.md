@@ -1,6 +1,8 @@
 # Forge Python Scripts
 
-A collection of Forge Python scripts, currently with a count of one.
+A collection of Forge Python scripts, currently with a count of one:
+
+- [py_forge_formats.py](#py_forge_formatspy)
 
 
 ## py_forge_formats.py
