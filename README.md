@@ -7,7 +7,7 @@ A collection of Forge Python scripts, currently with a count of one:
 
 ## py_forge_formats.py
 
-Implements a Python wrapper around two basic Forge web service calls:
+[py_forge_formats.py](py_forge_formats.py) implements a Python wrapper around two basic Forge web service calls:
 
 - Authenticate an app.
 - Query the file formats currently supported by the translation processes.
@@ -39,7 +39,10 @@ $ ./py_forge_formats.py
     zip, asm.NNN, neu.NNN, prt.NNN
 ```
 
-This script replaces and improves on the previous `forgeauth` and `forgeformats` Unix shell cURL scripts documented in the discussion of
+This script replaces and improves on the
+previous [forgeauth](forgeauth)
+and [forgeformats](forgeformats) Unix
+shell cURL scripts documented in the discussion of
 the [`cURL` wrapper scripts to list Forge file formats](http://thebuildingcoder.typepad.com/blog/2016/10/forge-intro-formats-webinars-and-fusion-360-client-api.html#3).
 
 For the sake of completeness, those two scripts have been added to this repository as well.
