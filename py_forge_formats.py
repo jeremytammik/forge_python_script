@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# /j/sh/py_forge.py
+# /a/src/web/forge/forge_python_script/py_forge_formats.py
 #
 # Implement a Python wrapper around the Forge calls to
 # authenticate an app and query the file formats currently
