@@ -78,12 +78,14 @@ def main():
   """Authenticate ourselves with Forge and
   list the file formats currently supported."""
   
-  # My app credentials.
+  # Retrieve my Forge app credentials stored in
+  # system environment variables.
   
   client_id = os.environ['FORGE_CLIENT_ID']
   client_secret = os.environ['FORGE_CLIENT_SECRET']
 
-  # Authenticate app and retrieve access token.
+  # Authenticate the app and retrieve a
+  # time limited access token.
   
   token = forge_authenticate_app(
     client_id, client_secret, verbose )
@@ -97,9 +99,8 @@ def main():
   
   # Present the results in a human readable manner.
   
-  # s = json.dumps(formats, indent=2, sort_keys=True)
-  
-  s = jprettyprint(formats)
+  # s = json.dumps(formats, indent=2, sort_keys=True) # not so nice
+  s = jprettyprint(formats) # nicer
   s = s.replace('\.\d+$', '.NNN')
     
   print len(formats), 'Forge output formats:'
