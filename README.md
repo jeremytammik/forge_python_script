@@ -56,7 +56,7 @@ Before you can make any use of the Forge web services, you will need to register
 at [developer.autodesk.com](https://developer.autodesk.com)
 &gt; [my apps](https://developer.autodesk.com/myapps).
 
-These scripts assume that you have stored these creadentials in the environment variables `FORGE_CLIENT_ID` and `FORGE_CLIENT_SECRET`.
+These scripts assume that you have stored these credentials in the environment variables `FORGE_CLIENT_ID` and `FORGE_CLIENT_SECRET`.
 
 Regarding the Python components:
 
