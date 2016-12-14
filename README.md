@@ -60,8 +60,8 @@ These scripts assume that you have stored these credentials in the environment v
 
 Regarding the Python components:
 
-- Install [Python](https://www.python.org)
-- Install the [requests Python library](http://docs.python-requests.org)
+- Install [Python](https://www.python.org).
+- Install the [requests Python library](http://docs.python-requests.org).
 
 Now you should be all set to run.
 
