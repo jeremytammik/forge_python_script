@@ -50,11 +50,20 @@ For the sake of completeness, those two scripts have been added to this reposito
 
 ## Setup and Usage
 
+Two aspects need to be prepared: Forge and Python.
+
 Before you can make any use of the Forge web services, you will need to register an app and request the API client id and client secret for it
 at [developer.autodesk.com](https://developer.autodesk.com)
 &gt; [my apps](https://developer.autodesk.com/myapps).
 
 These scripts assume that you have stored these creadentials in the environment variables `FORGE_CLIENT_ID` and `FORGE_CLIENT_SECRET`.
+
+Regarding the Python components:
+
+- Install [Python](https://www.python.org)
+- Install the [requests Python library](http://docs.python-requests.org)
+
+Now you should be all set to run.
 
 
 ## <a name="98"></a>Author
