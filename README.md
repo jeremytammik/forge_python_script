@@ -63,7 +63,7 @@ Regarding the Python components:
 - Install [Python](https://www.python.org).
 - Install the [requests Python library](http://docs.python-requests.org).
 
-Now you should be all set to run.
+Now you should be all set to run as shown above.
 
 
 ## <a name="98"></a>Author
